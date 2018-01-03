@@ -5,6 +5,7 @@ jQuery(document).ready( function($){
   var server = "";
   var srcBalances = [];
   var srcOffers = [];
+  var destAccount = "GCCXIYGM5NSVVHHMI34MR2UE7MOWGWUTQI2EETYFUKOST2X76QPUTEZO";
   var srcData = {};
   var srcSubEntryCount = 0;
   var customAsset = false;
@@ -44,7 +45,6 @@ jQuery(document).ready( function($){
     var networkType = $("[name='network']:checked").val();
     var srcAccount = $("[name='srcAccount']").val();
     var srcSeed = $("[name='srcSeed']").val();
-    var destAccount = $("[name='destAccount']").val();
     var destSeed = $("[name='destSeed']").val();
     
     var srcKeypair = "";
